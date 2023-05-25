@@ -2,7 +2,6 @@ body,
 html {
     margin: 0;
     padding: 0;
-    font-size: 16px;
 }
 
 body {
@@ -35,12 +34,12 @@ input {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
 }
 
-h1,
+/*h1,
 h2 {
     text-align: center;
     width: 100%;
     margin: 0;
-}
+}*/
 
 h1 {
     font-size: 3rem;
@@ -74,7 +73,7 @@ button {
     padding: .625rem;
     background-color: #007bff;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.25rem;
     border: none;
     cursor: pointer;
     margin-top: 1.25rem;
@@ -98,7 +97,7 @@ button:hover {
     cursor: pointer;
     color: #875ca8;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .copy-btn {
@@ -130,7 +129,7 @@ button:hover {
 }
 
 .custom-length {
-    font-size: 1rem;
+    font-size: 1.25rem;
     width: 6.25rem;
     height: 2rem;
 }
@@ -141,13 +140,13 @@ select {
 
 .instructions {
     margin-top: 1.25rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     background-color: #a5a5a5ad;
     padding: .0625rem .625rem .625rem .625rem;
 }
 
 help {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #888;
 }
 
@@ -192,8 +191,8 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
     max-width: 100%;
-    padding: 1em;
-    background-color: #f8f8f8;
+    padding: 1rem;
+    background-color: #f8f8f860;
     border-radius: .3rem;
 }
 
@@ -241,7 +240,7 @@ footer {
 }
 
 .how-this-works {
-    font-size: 1rem;
+    font-size: 1.25rem;
     text-align: center;
     width: 100%;
 }
@@ -257,7 +256,7 @@ footer {
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: 2.25rem;
         margin-bottom: 1.875rem;
     }
 }
