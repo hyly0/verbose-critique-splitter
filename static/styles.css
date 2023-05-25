@@ -95,19 +95,19 @@ button:hover {
     padding: .625rem;
     border: none;
     cursor: pointer;
-    color: #875ca8;
+    color: #fff;
     text-align: center;
     font-size: 1.25rem;
 }
 
 .copy-btn {
-    background-color: #875ca8;
+    background-color: #007bff;
     flex-basis: min-content;
     margin-bottom: .625rem;
 }
 
 .copy-btn:hover {
-    background-color: #a376c5;
+    background-color: #0056b3;
 }
 
 .clicked {
@@ -120,12 +120,12 @@ button:hover {
 }
 
 .copy-instructions-btn {
-    background-color: #875ca8;
+    background-color: #007bff;
     margin-top: .625rem;
 }
 
 .copy-instructions-btn:hover {
-    background-color: #875ca8;
+    background-color: #0056b3;
 }
 
 .custom-length {
