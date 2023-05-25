@@ -45,11 +45,9 @@ def split_prompt(text, split_length):
         end = min((i + 1) * split_length, len(text))
 
         if i == num_parts - 1:
-            content = f'[START PART {i + 1}/{num_parts}]\n' + text[start:end] + f'\n[END PART {i + 1}/{num_parts}]'
-            content += '\nALL PARTS SENT. Now you can continue processing the request.'
+            content = f'[{i + 1}/{num_parts}]\n' + text[start:end]'
         else:
-            content = f'Do not answer yet. This is just another part of the text I want to send you. Just receive and acknowledge as "Part {i + 1}/{num_parts} received" and wait for the next part.\n[START PART {i + 1}/{num_parts}]\n' + text[start:end] + f'\n[END PART {i + 1}/{num_parts}]'
-            content += f'\nRemember not answering yet. Just acknowledge you received this part with the message "Part {i + 1}/{num_parts} received" and wait for the next part.'
+            content = [{i + 1}/{num_parts}]\n' + text[start:end]'
 
         file_data.append({
             'name': f'split_{str(i + 1).zfill(3)}_of_{str(num_parts).zfill(3)}.txt',
