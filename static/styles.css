@@ -44,7 +44,7 @@ h2 {
 }*/
 
 p.logo {
-    font-size: 6.25rem;
+    font-size: 5rem;
     text-decoration: none;
 }
 
@@ -120,7 +120,7 @@ button:hover {
 }
 
 .copy-btn:hover {
-    background-color: #007bff;#0056b3;
+    background-color: #007bff;
 }
 
 .clicked {
@@ -178,6 +178,7 @@ button[disabled] {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    max-height: fit-content;
 }
 
 .logo {
@@ -196,7 +197,7 @@ button[disabled] {
     width: 20%;
     display: flex;
     justify-content: flex-end;
-    padding-right: .625rem;
+    padding-right: 1.25rem;
 }
 
 pre {
