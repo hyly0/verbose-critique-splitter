@@ -6,7 +6,7 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    color: #ffffff;
+    color: #fff;
     background-color: #282828;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ input {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    /*background-color: #fff;*/
+    background-color: #282828;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
