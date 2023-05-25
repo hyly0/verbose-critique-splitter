@@ -43,6 +43,9 @@ h2 {
     margin: 0;
 }*/
 
+p.logo {
+    font-size: 12.5rem;
+}
 h1 {
     font-size: 3rem;
 }
