@@ -38,11 +38,12 @@
           <!-- <div class="how-this-works"><a href="https://medium.com/@josediazmoreno/break-the-limits-send-large-text-blocks-to-chatgpt-with-ease-6824b86d3270" target="_blank">How this works</a></div> -->
         </div>
       </div>
-      <!-- <div class="visits">Visit count: {{ visit_count }}</div> !-->
+      <!-- <div class="visits">Visit count: {{ visit_count }}</div> -->
       <form action="/" method="post">
         <div class="form-group">
-          <label for="prompt">Enter the text to be split</label>
+          <!-- <label for="prompt">Enter the text to be split</label> -->
           <textarea class="form-control" id="prompt" name="prompt" rows="10">Enter text to be split into comments here.</textarea>
+          <br>
           <help>Enter the text to be split into comments here. Reddit comment character limit is 10,000 characters. 9,990 characters leaves wiggle room for a [X/XX] bit to be added to the top of each comment</help>
           <div class="char-count-container">
             <span id="prompt-char-count">{{ prompt|length }}</span> characters
