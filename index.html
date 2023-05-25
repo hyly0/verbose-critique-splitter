@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LEGMCTW1RN"></script>
+    <!-- Google tag (gtag.js) 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LEGMCTW1RN"></script> -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -33,18 +33,18 @@
           <a href="/"><img src="/static/chatgpt_prompt_splitter.png" alt="Logo" class="logo"/></a>
         </div> -->
         <div class="header-text">
-          <h1>RDR Long Critique Splitter CHUNGUS</h1>
+          <h1>RDR Long Critique Splitter</h1>
           <h2>A slapdash tool to split up text to fit within Reddit's 10,000-character comment limit<h2>
           <!-- <div class="how-this-works"><a href="https://medium.com/@josediazmoreno/break-the-limits-send-large-text-blocks-to-chatgpt-with-ease-6824b86d3270" target="_blank">How this works</a></div> -->
         </div>
       </div>
-      <!-- <div class="visits">Visit count: {{ visit_count }}</div> -->
+      <div class="visits">Visit count: {{ visit_count }}</div>
       <form action="/" method="post">
         <div class="form-group">
-          <!-- <label for="prompt">Enter the text to be split</label> -->
+          <label for="prompt">Enter the text to be split below.</label>
           <textarea class="form-control" id="prompt" name="prompt" rows="10">Enter text to be split into comments here.</textarea>
           <br>
-          <help>The Reddit comment character limit is 10,000 characters. Splitting at 9,990 characters leaves wiggle room for a [xx/XX] thread tracker thingy to be added to the top of each comment.</help>
+          <help>The Reddit comment character limit is 10,000 characters. Splitting at 9,990 characters leaves wiggle room for a [post number/total posts] thread tracker thingy to be added to the top of each comment.</help>
           <div class="char-count-container">
             <span id="prompt-char-count">{{ prompt|length }}</span> characters
           </div>
@@ -64,12 +64,15 @@
         <pre id="instructions">
 Paste your critique/long post into the text box above. Markdown shouldn't be affected by this.
 
--I usually write my stuff in the notes app on my phone/computer, with rich text enabled, then paste it into <a href="https://euangoddard.github.io/clipboard2markdown/">this nifty markdown converter</a>.
--I put a # in front of header sections as I write them to keep that formatting here, otherwise it ends up being marked as bolded text.
--I also manually add the >> in front of quoted text to keep the pullquotes.  I don't know if this is necessary, but it doesn't exactly take me any extra time to do it.
+-  I usually write my stuff in the notes app on my phone/computer, with rich text enabled, then paste it into <a href="https://euangoddard.github.io/clipboard2markdown/">this nifty markdown converter</a>.
+-  I put a # in front of header sections as I write them to keep that formatting here, otherwise it ends up being marked as bolded text.
+-  I also manually add the >> in front of quoted text to keep the pullquotes.  I don't know if this is necessary, but it doesn't exactly take me any extra time to do it.
 	</pre>
         <!-- <button type="button" class="copy-btn" id="copy-instructions-btn" onclick="copyInstructions()">Copy Instructions (first message to send)</button>
         <help>This way we explain ChatGPT how to process the messages we are gonna send.</help> -->
+      </div>
+        <button type="button" class="copy-btn" id="copy-instructions-btn" onclick="copyInstructions()">Copy Instructions (first message to send)</button>
+        <help>This way we explain ChatGPT how to process the messages we are gonna send.</help>
       </div>
       <div class="buttons-container">
         {% for file in file_data %}
@@ -87,6 +90,6 @@ Paste your critique/long post into the text box above. Markdown shouldn't be aff
       </footer>
       <div class="powered-by-vercel"><a href="https://vercel.app/" target="_blank"><img src="/static/powered-by-vercel.svg" alt="Powered by Vercel" /></a></div>
     </div>
-    <script src="/static/scripts.js"></script>
+    <script src="static/scripts.js"></script>
   </body>
 </html>
