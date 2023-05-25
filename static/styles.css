@@ -44,8 +44,16 @@ h2 {
 }*/
 
 p.logo {
-    font-size: 12.5rem;
+    font-size: 6.25rem;
+    text-decoration: none;
 }
+
+
+p.logo a {
+    text-decoration: none;
+}
+
+
 h1 {
     font-size: 3rem;
 }
