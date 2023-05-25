@@ -30,11 +30,11 @@
     <div class="container">
       <div class="header">
         <div class="header-logo">
-          <a href="/"><img src="/static/chatgpt_prompt_splitter.png" alt="Logo" class="logo"/></a>
+          <!-- <a href="/"><img src="/static/chatgpt_prompt_splitter.png" alt="Logo" class="logo"/></a> -->
         </div>
         <div class="header-text">
           <h1>RDR Long Critique Splitter</h1>
-          <h2>Open-source tool to split up text into groups of up to 9990 charactersh2>
+          <h2>Open-source tool to split up text to fit within Reddit's 10,000-character comment limit<h2>
           <!-- <div class="how-this-works"><a href="https://medium.com/@josediazmoreno/break-the-limits-send-large-text-blocks-to-chatgpt-with-ease-6824b86d3270" target="_blank">How this works</a></div> -->
         </div>
       </div>
@@ -42,7 +42,7 @@
       <form action="/" method="post">
         <div class="form-group">
           <label for="prompt">Enter the text to be split</label>
-          <textarea class="form-control" id="prompt" name="prompt" rows="10">{{ prompt }}</textarea>
+          <textarea class="form-control" id="prompt" name="prompt" rows="10">Enter text to be split into comments here.</textarea>
           <help>Enter the text to be split into comments here. Reddit comment character limit is 10,000 characters. 9,990 characters leaves wiggle room for a [X/XX] bit to be added to the top of each comment</help>
           <div class="char-count-container">
             <span id="prompt-char-count">{{ prompt|length }}</span> characters
