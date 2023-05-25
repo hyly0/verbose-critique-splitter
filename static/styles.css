@@ -107,7 +107,7 @@ button:hover {
 }
 
 .copy-btn:hover {
-    background-color: #007bff;
+    background-color: #007bff;#0056b3;
 }
 
 .clicked {
@@ -263,17 +263,17 @@ footer {
 
 /* unvisited link */
 a:link {
-    color: #666;
+    color: #0056b3;
   }
   
   /* visited link */
   a:visited {
-    color: #a376c5;
+    color: #007bff;
   }
   
   /* mouse over link */
   a:hover {
-    color: #875ca8;
+    color: #ccc;
   }
   
   /* selected link */
