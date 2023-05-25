@@ -27,8 +27,8 @@ input {
 }
 
 .container {
-    max-width: 80%;
-    min-width: 50%;
+    max-width: 65%;
+    min-width: 45%;
     margin: 0 auto;
     padding: 1.25rem;
     background-color: #282828;
@@ -44,7 +44,7 @@ h2 {
 }*/
 
 p.logo {
-    font-size: 3.45rem;
+    font-size: 6.25rem;
     text-decoration: none;
 }
 
