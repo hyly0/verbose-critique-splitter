@@ -260,3 +260,23 @@ footer {
         margin-bottom: 1.875rem;
     }
 }
+
+/* unvisited link */
+a:link {
+    color: #875ca8;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #a376c5;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #666;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #888;
+  }
