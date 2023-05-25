@@ -71,7 +71,7 @@ button {
     display: block;
     width: 100%;
     padding: .625rem;
-    background-color: #007bff;
+    background-color: #0056b3;
     color: #fff;
     font-size: 1.25rem;
     border: none;
@@ -80,7 +80,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #007bff;
 }
 
 .buttons-container {
@@ -101,13 +101,13 @@ button:hover {
 }
 
 .copy-btn {
-    background-color: #007bff;
+    background-color: #0056b3;
     flex-basis: min-content;
     margin-bottom: .625rem;
 }
 
 .copy-btn:hover {
-    background-color: #0056b3;
+    background-color: #007bff;
 }
 
 .clicked {
@@ -120,12 +120,12 @@ button:hover {
 }
 
 .copy-instructions-btn {
-    background-color: #007bff;
+    background-color: #0056b3;
     margin-top: .625rem;
 }
 
 .copy-instructions-btn:hover {
-    background-color: #0056b3;
+    background-color: #007bff;
 }
 
 .custom-length {
@@ -141,7 +141,7 @@ select {
 .instructions {
     margin-top: 1.25rem;
     font-size: 1.25rem;
-    background-color: #a5a5a5ad;
+    background-color: #a5a5a563;
     padding: .0625rem .625rem .625rem .625rem;
 }
 
@@ -263,7 +263,7 @@ footer {
 
 /* unvisited link */
 a:link {
-    color: #875ca8;
+    color: #666;
   }
   
   /* visited link */
@@ -273,7 +273,7 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    color: #666;
+    color: #875ca8;
   }
   
   /* selected link */
